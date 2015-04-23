@@ -1,4 +1,4 @@
-package com.android;
+package ags.qnear.com.androidupgradedemo;
 
 public class UpdataInfo {
 	private String version;

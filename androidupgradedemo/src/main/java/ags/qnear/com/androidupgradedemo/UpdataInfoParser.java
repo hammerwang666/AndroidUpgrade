@@ -1,10 +1,10 @@
-package com.android;
+package ags.qnear.com.androidupgradedemo;
 
-import java.io.InputStream;
+import android.util.Xml;
 
 import org.xmlpull.v1.XmlPullParser;
 
-import android.util.Xml;
+import java.io.InputStream;
 
 public class UpdataInfoParser {
 

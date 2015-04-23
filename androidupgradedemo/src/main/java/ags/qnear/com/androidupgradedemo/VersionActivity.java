@@ -1,9 +1,4 @@
-package com.android;
-
-import java.io.File;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
+package ags.qnear.com.androidupgradedemo;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -18,12 +13,17 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.io.File;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 
 public class VersionActivity extends Activity {
 

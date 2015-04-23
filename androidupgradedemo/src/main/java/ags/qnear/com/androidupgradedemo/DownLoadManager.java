@@ -1,4 +1,7 @@
-package com.android;
+package ags.qnear.com.androidupgradedemo;
+
+import android.app.ProgressDialog;
+import android.os.Environment;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -6,9 +9,6 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-
-import android.app.ProgressDialog;
-import android.os.Environment;
 
 public class DownLoadManager {
 
