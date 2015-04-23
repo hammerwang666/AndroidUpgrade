@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, VersionActivity!</string>
+    <string name="app_name">Version</string>
+    <string name="url_server">http://192.168.1.99/version.xml</string>
+
+</resources>
