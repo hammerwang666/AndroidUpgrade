@@ -58,7 +58,6 @@ public class VersionActivity extends Activity {
 					new Thread(cv).start();
 
 				} catch (Exception e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
@@ -122,23 +121,18 @@ public class VersionActivity extends Activity {
 
 		@Override
 		public void handleMessage(Message msg) {
-			// TODO Auto-generated method stub
 			super.handleMessage(msg);
 			switch (msg.what) {
 			case UPDATA_NONEED:
 				Toast.makeText(getApplicationContext(), "版本号相同无需升级",
 						Toast.LENGTH_SHORT).show();
 			case UPDATA_CLIENT:
-				// 对话框通知用户升级程序
-				// Toast.makeText(getApplicationContext(), "可以升级程序啦~",
-				// 1).show();
 				showUpdataDialog();
 				break;
 			case GET_UNDATAINFO_ERROR:
 				// 服务器超时
 				Toast.makeText(getApplicationContext(), "获取服务器更新信息失败", 1)
 						.show();
-				// LoginMain();
 				break;
 			case SDCARD_NOMOUNTED:
 				// sdcard不可用
@@ -147,7 +141,6 @@ public class VersionActivity extends Activity {
 			case DOWN_ERROR:
 				// 下载apk失败
 				Toast.makeText(getApplicationContext(), "下载新版本失败", 1).show();
-				// LoginMain();
 				break;
 			}
 		}
